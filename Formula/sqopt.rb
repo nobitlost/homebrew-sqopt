@@ -6,17 +6,16 @@ class Sqopt < Formula
 
   desc "Squirrel optimizer"
   homepage "https://github.com/nobitlost/squirrel_optimizer/"
-  version "0.4.3"
-  bottle :unneeded
+  version "0.4.4"
 
-  url "https://github.com/nobitlost/squirrel_optimizer/releases/download/0.4.3/sqopt-0.4.3.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-  sha256 "58820a10ed2cb82e8dada0f9a0c7763eff3cadb5654508ac2d55a7a454b97c6d"
+  url "https://github.com/nobitlost/squirrel_optimizer/releases/download/0.4.4/sqopt-0.4.4.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+  sha256 "3b4ee6983f15f1fb8bad71005dbfc0a68ecc6b8077f1a351b40476fbf0f884b7"
 
   depends_on "python@3.10"
   
   resource "jinja2" do
-    url "https://files.pythonhosted.org/packages/f8/86/7c0eb6e8b05385d1ce682abc0f994abd1668e148fb52603fa86e15d4c110/Jinja2-3.0.2.tar.gz"
-    sha256 "827a0e32839ab1600d4eb1c4c33ec5a8edfbc5cb42dafa13b81f182f97784b45"
+    url "https://files.pythonhosted.org/packages/91/a5/429efc6246119e1e3fbf562c00187d04e83e54619249eb732bb423efa6c6/Jinja2-3.0.3.tar.gz"
+    sha256 "611bb273cd68f3b993fabdc4064fc858c5b47a973cb5aa7999ec1ba405c87cd7"
   end
   
   resource "lark-parser" do
