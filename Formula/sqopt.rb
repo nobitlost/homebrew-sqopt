@@ -6,10 +6,10 @@ class Sqopt < Formula
 
   desc "Squirrel optimizer"
   homepage "https://github.com/nobitlost/squirrel_optimizer/"
-  version "0.4.8"
+  version "0.5.0"
 
-  url "https://github.com/nobitlost/squirrel_optimizer/releases/download/0.4.8/sqopt-0.4.8.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-  sha256 "6c684a21fc4bea7060b0e62a52f0f7459aaa520cab112c7a7792ae67ddac64e6"
+  url "https://github.com/nobitlost/squirrel_optimizer/releases/download/0.5.0/sqopt-0.5.0.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+  sha256 "5bcc2f6387002876dab1c774347ab660e40ff3d4cedbf0d25246ee84f18ced15"
 
   depends_on "python@3.10"
   
