@@ -6,10 +6,10 @@ class Sqopt < Formula
 
   desc "Squirrel optimizer"
   homepage "https://github.com/nobitlost/squirrel_optimizer/"
-  version "0.5.2"
+  version "0.5.3"
 
-  url "https://github.com/nobitlost/squirrel_optimizer/releases/download/0.5.2/sqopt-0.5.2.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-  sha256 "8706230578a1820e7d426575ad71da870b2e3fc9da5a6a59b59aa1d92a10378c"
+  url "https://github.com/nobitlost/squirrel_optimizer/releases/download/0.5.3/sqopt-0.5.3.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+  sha256 "0b629200680194a4c5a217a0364f8fe71f7d45c3c445031c9726b0ddd0304925"
 
   depends_on "python@3.10"
   
@@ -24,8 +24,8 @@ class Sqopt < Formula
   end
 
   resource "littletable" do
-    url "https://files.pythonhosted.org/packages/2c/b6/69f9ef54d793292b1a63260356e23bf544268e775bce32b7c8f84383090c/littletable-2.0.4.tar.gz"
-    sha256 "b25d8e962859a3461ea21a46728daa99c96078d923bfd4429cb8b024c17958a4"
+    url "https://files.pythonhosted.org/packages/10/71/13987551f6922aa338836ef3e9abc10f68b44b6259849de3cedea7cda661/littletable-2.0.5.tar.gz"
+    sha256 "d7465f934ca97517bbb9cde3510f33a32dbea50136b6fe2d2ecedb04e6769f9a"
   end
   
   resource "loguru" do
